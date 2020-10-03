@@ -34,7 +34,7 @@ class UserListAPIView(ListAPIView):
 
 class UserCreateAPIView(CreateAPIView):
     serializer_class = UserSerializer
-    permission_classes = [IsAuthenticatedOrReadOnly]
+    permission_classes = []
     queryset = User.objects.all()
 
 

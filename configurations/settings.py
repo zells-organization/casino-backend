@@ -147,9 +147,11 @@ CORS_ORIGIN_ALLOW_ALL = True # If this is used then `CORS_ORIGIN_WHITELIST` will
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:8080',
+    'http://localhost:8000',
     'https://vasino.herokuapp.com',
 ] # If this is used, then not need to use `CORS_ORIGIN_ALLOW_ALL = True`
 CORS_ORIGIN_REGEX_WHITELIST = [
     'http://localhost:8080',
+    'http://localhost:8000',
     'https://vasino.herokuapp.com',
 ]
